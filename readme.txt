@@ -1,6 +1,6 @@
 PaymentTracker application
 
-Command for rurning:
+Command for running:
 java -jar PaymentTracker-1.0-jar-with-dependencies.jar <file>
 
 Parameters:

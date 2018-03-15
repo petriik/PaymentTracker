@@ -21,6 +21,10 @@ public class PaymentPrinter implements Runnable {
         this.printingInterval = printingInterval;
     }
 
+    /**
+     * Prints states of payment accounts to the standard output.
+     */
+    @Override
     public void run() {
         try {
             while (true) {

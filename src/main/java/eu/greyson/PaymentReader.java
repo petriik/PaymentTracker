@@ -26,6 +26,9 @@ public class PaymentReader implements Runnable {
         this.printer = printer;
     }
 
+    /**
+     * Reads payments from the standard input and store them into their accounts .
+     */
     @Override
     public void run() {
 

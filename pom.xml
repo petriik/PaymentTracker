@@ -8,6 +8,11 @@
     <packaging>jar</packaging>
     <name>PaymentTracker</name>
 
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -15,11 +20,6 @@
             <version>RELEASE</version>
         </dependency>
     </dependencies>
-
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
 
     <build>
         <plugins>
@@ -36,7 +36,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        eu.greyson.PaymentTracker
+                                        eu.greyson.koval.tracker.PaymentTracker
                                     </mainClass>
                                 </manifest>
                             </archive>

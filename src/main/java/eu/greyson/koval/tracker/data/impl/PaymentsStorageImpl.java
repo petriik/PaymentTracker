@@ -26,7 +26,7 @@ public class PaymentsStorageImpl implements PaymentsStorage {
     /** {@inheritDoc} */
     public synchronized void addPayments(List<Payment> payments) {
         if (this.payments != null && payments != null) {
-            payments.stream().forEach(this::addPayment);
+            payments.forEach(this::addPayment);
         }
     }
 

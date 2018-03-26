@@ -44,4 +44,4 @@ EUR 1000
 1. Printing of results is disabled in first 50 seconds after last printing.
 2. After that there is a 20 second interval in which printing is enabled only right after user input.
 If user added a payment within this interval, the result will be printed without disturbing him.
-3. If user doesn't write a payment in this interval, result will be printed at the end of this iterval regardless user input.
+3. If user doesn't write a payment in this interval, result will be printed at the end of this interval regardless user input.
